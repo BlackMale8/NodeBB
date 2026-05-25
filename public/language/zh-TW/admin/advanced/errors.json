@@ -1,11 +1,11 @@
 {
-	"errors": "Errors",
+	"errors": "錯誤",
 	"figure-x": "數量 %1",
 	"error-events-per-day": "<code>%1</code> 事件/天",
 	"error.404": "404 頁面不存在",
 	"error.503": "503 服務不可用",
 	"manage-error-log": "管理錯誤日誌",
-	"export-error-log": "導出錯誤日誌 (.csv)",
+	"export-error-log": "匯出錯誤日誌 (.csv)",
 	"clear-error-log": "清空錯誤日誌",
 	"route": "路徑",
 	"count": "次數",

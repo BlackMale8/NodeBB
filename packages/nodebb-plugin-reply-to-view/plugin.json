@@ -1,0 +1,22 @@
+{
+  "id": "nodebb-plugin-reply-to-view",
+  "url": "https://github.com/NodeBB/NodeBB",
+  "scss": [
+    "public/scss/reply-to-view.scss"
+  ],
+  "scripts": [
+    "public/js/client.js"
+  ],
+  "languages": "public/languages",
+  "defaultLang": "en-GB",
+  "hooks": [
+    { "hook": "static:app.load", "method": "init" },
+    { "hook": "filter:post.getPosts", "method": "filterPosts", "priority": 50 },
+    { "hook": "filter:post.getPostSummaryByPids", "method": "filterPosts", "priority": 50 },
+    { "hook": "filter:topic.getPosts", "method": "filterPosts", "priority": 50 },
+    { "hook": "filter:post.getRawPost", "method": "filterRawPost", "priority": 50 },
+    { "hook": "filter:composer.formatting", "method": "registerFormatting" },
+    { "hook": "action:topic.reply", "method": "onTopicReply" },
+    { "hook": "action:post.setFields", "method": "onPostSetFields" }
+  ]
+}

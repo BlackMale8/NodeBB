@@ -7,12 +7,11 @@
 	"create": "建立標籤",
 	"add-tag": "加入標籤",
 	"modify": "修改標籤",
-	"rename": "重命名標籤",
+	"rename": "重新命名標籤",
 	"delete": "刪除所選標籤",
 	"search": "搜尋標籤...",
 	"settings": "標籤設定",
 	"name": "標籤名",
-
 	"alerts.editing": "編輯(多個)標籤",
 	"alerts.confirm-delete": "是否要刪除所選標籤？",
 	"alerts.update-success": "標籤已更新！",

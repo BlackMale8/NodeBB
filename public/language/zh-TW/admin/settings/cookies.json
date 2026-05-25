@@ -7,7 +7,7 @@
 	"consent.link-url": "政策地址連結",
 	"consent.blank-localised-default": "留白以便使用 NodeBB 本地預設值",
 	"settings": "設定",
-	"cookie-domain": "Session cookie 域名",
-	"max-user-sessions": "Max active sessions per user",
+	"cookie-domain": "Session cookie 網域",
+	"max-user-sessions": "每個使用者的最大活躍工作階段數",
 	"blank-default": "留白以保持預設"
 }
