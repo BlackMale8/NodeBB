@@ -24,3 +24,5 @@ The package is intended to be linked into NodeBB with the root dependency:
 ```
 
 After installing dependencies, enable `nodebb-plugin-reply-to-view` in the ACP or add it to `plugins:active`, rebuild assets, and restart NodeBB.
+
+Settings are available in the ACP under **Plugins > Reply to View**.

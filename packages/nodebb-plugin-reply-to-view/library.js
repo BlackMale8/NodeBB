@@ -13,6 +13,7 @@ const db = nodebbRequire('./src/database');
 const meta = nodebbRequire('./src/meta');
 const posts = nodebbRequire('./src/posts');
 const privileges = nodebbRequire('./src/privileges');
+const routeHelpers = nodebbRequire('./src/routes/helpers');
 const topics = nodebbRequire('./src/topics');
 
 const plugin = module.exports;
@@ -32,8 +33,33 @@ const replyCache = new Map();
 
 let apiWrapped = false;
 
-plugin.init = async function () {
+plugin.addAdminNavigation = async function (header) {
+	header.plugins.push({
+		route: '/plugins/reply-to-view',
+		icon: 'fa-lock',
+		name: '[[reply-to-view:admin.title]]',
+	});
+	return header;
+};
+
+plugin.renderAdmin = async function (req, res) {
+	const settings = await getSettings();
+	res.render('admin/plugins/reply-to-view', {
+		title: '[[reply-to-view:admin.title]]',
+		settings,
+	});
+};
+
+plugin.onSettingsSet = function ({ plugin: pluginId }) {
+	if (pluginId === 'reply-to-view') {
+		settingsCache.expires = 0;
+		settingsCache.data = null;
+	}
+};
+
+plugin.init = async function ({ router }) {
 	wrapPostsApi();
+	routeHelpers.setupAdminPageRoute(router, '/admin/plugins/reply-to-view', [], plugin.renderAdmin);
 };
 
 plugin.filterPosts = async function (payload) {

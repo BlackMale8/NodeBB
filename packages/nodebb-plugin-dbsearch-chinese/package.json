@@ -1,0 +1,13 @@
+{
+  "name": "nodebb-plugin-dbsearch-chinese",
+  "version": "0.1.0",
+  "description": "NodeBB dbsearch with Chinese tokenization support.",
+  "main": "index.js",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "nodejieba": "^3.5.2"
+  },
+  "nbbpm": {
+    "compatibility": "^4.0.0"
+  }
+}

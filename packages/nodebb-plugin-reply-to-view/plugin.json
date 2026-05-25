@@ -7,10 +7,16 @@
   "scripts": [
     "public/js/client.js"
   ],
+  "modules": {
+    "../admin/plugins/reply-to-view.js": "public/js/admin.js"
+  },
+  "templates": "public/templates",
   "languages": "public/languages",
   "defaultLang": "en-GB",
   "hooks": [
     { "hook": "static:app.load", "method": "init" },
+    { "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
+    { "hook": "action:settings.set", "method": "onSettingsSet" },
     { "hook": "filter:post.getPosts", "method": "filterPosts", "priority": 50 },
     { "hook": "filter:post.getPostSummaryByPids", "method": "filterPosts", "priority": 50 },
     { "hook": "filter:topic.getPosts", "method": "filterPosts", "priority": 50 },
