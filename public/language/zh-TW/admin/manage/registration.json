@@ -11,7 +11,7 @@
 	"list.ip-spam": "頻率：%1 顯示： %2",
 
 	"invitations": "邀請",
-	"invitations.description": "下面列出了所有已發送的邀請。您可以使用 Ctrl+F 快捷鍵搜索列表中的郵箱地址或帳戶。<br><br>如果使用者接受了邀請，他的帳戶將會被顯示在郵箱右邊。",
+	"invitations.description": "下面列出了所有已寄送的邀請。您可以使用 Ctrl+F 快捷鍵搜尋列表中的電子信箱地址或帳戶。<br><br>如果使用者接受了邀請，他的帳戶將會顯示在電子信箱右邊。",
 	"invitations.inviter-username": "邀請人帳戶",
 	"invitations.invitee-email": "受邀請的電子信箱",
 	"invitations.invitee-username": "受邀請的帳戶(如果已經註冊)",

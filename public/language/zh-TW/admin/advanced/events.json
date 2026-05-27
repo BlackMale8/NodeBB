@@ -3,7 +3,7 @@
 	"no-events": "暫無事件",
 	"control-panel": "事件控制面板",
 	"delete-events": "刪除事件",
-	"confirm-delete-all-events": "確定删除全部已記錄的事件嗎？",
+	"confirm-delete-all-events": "確定刪除全部已記錄的事件嗎？",
 	"filters": "過濾器",
 	"filters-apply": "應用過濾器",
 	"filter-type": "事件類型",

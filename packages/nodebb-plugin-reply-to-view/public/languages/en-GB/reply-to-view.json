@@ -1,0 +1,14 @@
+{
+  "hidden-content": "This content is visible after replying.",
+  "hidden-attachment": "This attachment is visible after replying.",
+  "button-title": "Hide until reply",
+  "placeholder": "Hidden content",
+  "admin.title": "Reply to View",
+  "admin.hidden-text": "Hidden content notice",
+  "admin.hidden-text-help": "Shown where hidden post content was concealed.",
+  "admin.attachment-text": "Hidden attachment notice",
+  "admin.attachment-text-help": "Shown where local uploads and attachments were concealed.",
+  "admin.bypass-admin-mod": "Always reveal content to administrators and moderators",
+  "admin.bypass-admin-mod-help": "Topic authors and post authors can always see their own hidden content.",
+  "admin.settings-saved": "Reply to View settings saved"
+}

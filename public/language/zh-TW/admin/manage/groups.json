@@ -33,7 +33,7 @@
 	"edit.text-color": "群組文字顏色",
 	"edit.show-badge": "顯示徽章",
 	"edit.private-details": "啟用此選項後，加入群組的請求將需要群組所有者審核。",
-	"edit.private-override": "警告：系統已禁用了私有群組，優先性高於該選項。",
+	"edit.private-override": "警告：系統已停用私有群組，優先性高於該選項。",
 	"edit.disable-join": "禁止申請加入群組",
 	"edit.disable-leave": "禁止使用者離開群組",
 	"edit.hidden": "隱藏",

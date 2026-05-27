@@ -1,0 +1,14 @@
+{
+  "hidden-content": "此內容回覆後可見",
+  "hidden-attachment": "此附件回覆後可見",
+  "button-title": "回覆後可見",
+  "placeholder": "需要回覆後才能看到的內容",
+  "admin.title": "回覆後可見",
+  "admin.hidden-text": "隱藏內容提示",
+  "admin.hidden-text-help": "取代被隱藏貼文內容時顯示的文字。",
+  "admin.attachment-text": "隱藏附件提示",
+  "admin.attachment-text-help": "取代本機上傳與附件時顯示的文字。",
+  "admin.bypass-admin-mod": "管理員與版主永遠可查看隱藏內容",
+  "admin.bypass-admin-mod-help": "主題作者與貼文作者永遠可以查看自己的隱藏內容。",
+  "admin.settings-saved": "回覆後可見設定已儲存"
+}

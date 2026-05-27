@@ -16,7 +16,7 @@
 	"dropdown-placeholder": "將您的下拉式選單放在下面 例如: <br/>&lt;li&gt;&lt;a class=&quot;dropdown-item&quot; href&#x3D;&quot;https://myforum.com&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;",
 
 	"btn.delete": "刪除",
-	"btn.disable": "禁用",
+	"btn.disable": "停用",
 	"btn.enable": "啟用",
 
 	"available-menu-items": "可用的選單項目",
