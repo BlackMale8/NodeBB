@@ -1,9 +1,9 @@
 {
-    "group": "Group",
+    "group": "群組",
     "all-groups": "全部群組",
     "groups": "群組",
     "members": "成員",
-    "x-members": "%1 member(s)",
+    "x-members": "%1 位成員",
     "view-group": "檢視群組",
     "owner": "群組所有者",
     "new-group": "新增群組",
@@ -39,7 +39,7 @@
     "details.member-count": "群組成員數",
     "details.creation-date": "建立時間",
     "details.description": "描述",
-    "details.member-post-cids": "Category IDs to display posts from",
+    "details.member-post-cids": "顯示發布貼文的版面 ID",
     "details.badge-preview": "徽章預覽",
     "details.change-icon": "更改圖示",
     "details.change-label-colour": "更改標籤顏色",
@@ -62,7 +62,7 @@
     "membership.reject": "拒絕",
     "new-group.group-name": "群組名:",
     "upload-group-cover": "上傳群組封面",
-    "bulk-invite-instructions": "輸入您要邀請加入此群組的使用者名，多個使用者以逗號分隔",
+    "bulk-invite-instructions": "輸入您要邀請加入此群組的使用者名稱，多個使用者以逗號分隔",
     "bulk-invite": "批次邀請",
     "remove-group-cover-confirm": "確定要移除封面圖片嗎？"
 }

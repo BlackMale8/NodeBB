@@ -1,10 +1,10 @@
 {
-    "settings.title": "Theme settings",
-    "settings.intro": "You can customise your theme settings here. Settings are stored on a per-device basis, so you are able to have different settings on different devices (phone, tablet, desktop, etc.)",
-    "settings.mobile-menu-side": "Switch which side each mobile menu is on",
-    "settings.autoHidingNavbar": "Automatically hide the navbar on scroll",
-    "settings.autoHidingNavbar-xs": "Very small screens (e.g. phones in portrait mode)",
-    "settings.autoHidingNavbar-sm": "Smaller screens (e.g. phones, some tablets)",
-    "settings.autoHidingNavbar-md": "Medium sized screens (e.g. tablets in landscape mode)",
-    "settings.autoHidingNavbar-lg": "Larger screens (e.g. desktop computers)"
+    "settings.title": "主題設定",
+    "settings.intro": "您可以在這裡自訂主題設定。設定將按裝置單獨儲存，因此您可以在不同裝置（手機、平板、桌上型電腦等）上使用不同的設定。",
+    "settings.mobile-menu-side": "移動端導航選單切換到另一側",
+    "settings.autoHidingNavbar": "滾動時自動隱藏導航條",
+    "settings.autoHidingNavbar-xs": "非常小的螢幕（如縱向模式的手機）。",
+    "settings.autoHidingNavbar-sm": "較小的螢幕（如手機、某些平板電腦）。",
+    "settings.autoHidingNavbar-md": "中等尺寸的螢幕（如橫向模式的平板電腦）。",
+    "settings.autoHidingNavbar-lg": "較大的螢幕（如臺式電腦）。"
 }

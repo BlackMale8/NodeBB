@@ -1,9 +1,9 @@
 {
-	"jobs": "工作",
-	"job-name": "工作名稱",
-	"schedule": "排程",
-	"next-run": "下次執行",
-	"last-duration": "上次耗時",
-	"running": "執行中",
-	"active": "啟用"
+    "jobs": "工作",
+    "job-name": "工作名稱",
+    "schedule": "排程",
+    "next-run": "下次執行",
+    "last-duration": "上次耗時",
+    "running": "執行中",
+    "active": "啟用"
 }

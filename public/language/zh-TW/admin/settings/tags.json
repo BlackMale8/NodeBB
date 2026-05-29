@@ -1,9 +1,9 @@
 {
     "tag": "標籤設定",
     "link-to-manage": "管理標籤",
-    "system-tags": "System Tags",
-    "system-tags-help": "Only privileged users will be able to use these tags.",
-    "tags-per-topic": "Tags per topic",
+    "system-tags": "系統標籤",
+    "system-tags-help": "只有特權使用者可以使用這些標籤。",
+    "tags-per-topic": "每個主題的標籤",
     "min-per-topic": "每個主題的最少標籤數",
     "max-per-topic": "每話題的最大標籤數",
     "min-length": "最短標籤長度",

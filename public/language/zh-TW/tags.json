@@ -7,7 +7,7 @@
     "enter-tags-here-short": "輸入標籤...",
     "no-tags": "尚無標籤。",
     "select-tags": "選擇標籤",
-    "tag-whitelist": "標籤白名單",
+    "tag-whitelist": "標籤允許清單",
     "watching": "關注中",
     "not-watching": "未關注中",
     "watching.description": "通知我新主題",
