@@ -1442,9 +1442,8 @@ describe('Controllers', () => {
 
 	describe('handle errors', () => {
 		const plugins = require('../src/plugins');
-		after((done) => {
-			plugins.loadedHooks['filter:router.page'] = undefined;
-			done();
+		after(() => {
+			delete plugins.loadedHooks['response:router.page'];
 		});
 
 		it('should handle topic malformed uri', async () => {

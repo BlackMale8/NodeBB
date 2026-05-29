@@ -41,6 +41,7 @@
     "chat.public-rooms": "公開聊天室 (%1)",
     "chat.private-rooms": "私人聊天室 (%1)",
     "chat.create-room": "建立聊天室",
+    "chat.search-chats-placeholder": "搜尋聊天...",
     "chat.private.option": "私人（只有加入聊天室的使用者可見）",
     "chat.public.option": "公開（所選群組中的每位使用者皆可見）",
     "chat.public.groups-help": "若要建立所有使用者都可見的聊天室，請從群組列表選擇 registered-users。",
