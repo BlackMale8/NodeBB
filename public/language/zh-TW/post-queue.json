@@ -10,6 +10,7 @@
 	"user": "使用者",
 	"when": "時間",
 	"category": "版面",
+	"tags": "Tags",
 	"title": "標題",
 	"content": "內容",
 	"posted": "發布",
@@ -39,5 +40,6 @@
 	"remove-selected-confirm": "確定要移除 %1 篇已選貼文嗎？",
 	"bulk-accept-success": "已接受 %1 篇貼文",
 	"bulk-reject-success": "已拒絕 %1 篇貼文",
-	"links-in-this-post": "貼文裡的連結"
+	"links-in-this-post": "貼文裡的連結",
+	"thumbs-in-this-post": "貼文裡的縮圖"
 }
